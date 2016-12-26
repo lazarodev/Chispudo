@@ -3,6 +3,11 @@ package com.gt.dev.lazaro.chispudo;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+/**
+ * Created 26/12/2016
+ * Todos los derechos reservados Fernando Lazaro
+ */
+
 public class SplashActivity extends AppCompatActivity {
 
     protected final static long TIEMPO = 2000;
@@ -11,6 +16,7 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        theTimer();
     }
 
     private void theTimer() {
