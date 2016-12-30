@@ -1,11 +1,12 @@
-package com.gt.dev.lazaro.chispudo;
+package com.gt.dev.lazaro.chispudo.activity;
 
 import android.os.Bundle;
 
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
+import com.gt.dev.lazaro.chispudo.R;
 
-public class QuizActivity extends TabStepper {
+public class WiuroQuizActivity extends TabStepper {
 
     private int i = 1;
 

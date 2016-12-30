@@ -1,4 +1,4 @@
-package com.gt.dev.lazaro.chispudo;
+package com.gt.dev.lazaro.chispudo.fragments.wiuro;
 
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 

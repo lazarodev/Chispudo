@@ -20,52 +20,54 @@
 
             <ImageButton
                 android:id="@+id/btn_play"
-                android:layout_width="150dp"
-                android:layout_height="140dp"
+                android:layout_width="300dp"
+                android:layout_height="280dp"
                 android:background="@drawable/play_button" />
 
             <ImageButton
                 android:id="@+id/btn_text"
-                android:layout_width="150dp"
-                android:layout_height="140dp"
+                android:layout_width="300dp"
+                android:layout_height="280dp"
                 android:background="@drawable/texto_button" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:gravity="center"
             android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/btn_glosario"
-                android:layout_width="150dp"
-                android:layout_height="140dp"
+                android:layout_width="300dp"
+                android:layout_height="280dp"
                 android:background="@drawable/glosario_button" />
 
             <ImageButton
                 android:id="@+id/btn_quiz_daily"
-                android:layout_width="150dp"
-                android:layout_height="140dp"
+                android:layout_width="300dp"
+                android:layout_height="280dp"
                 android:background="@drawable/daily_quiz_button" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
             android:gravity="center"
             android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/btn_about"
-                android:layout_width="150dp"
-                android:layout_height="140dp"
+                android:layout_width="300dp"
+                android:layout_height="280dp"
                 android:background="@drawable/about_button" />
 
             <ImageButton
                 android:id="@+id/btn_settings"
-                android:layout_width="150dp"
-                android:layout_height="140dp"
+                android:layout_width="300dp"
+                android:layout_height="280dp"
                 android:background="@drawable/ajute_button" />
         </LinearLayout>
     </LinearLayout>

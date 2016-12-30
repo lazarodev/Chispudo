@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SplashActivity" />
-        <activity android:name=".QuizActivity"></activity>
+        <activity android:name=".activity.WiuroQuizActivity" />
+        <activity android:name=".activity.PatojoQuizActivity" />
+        <activity android:name=".activity.QuizMainActivity"></activity>
     </application>
 
 </manifest>
