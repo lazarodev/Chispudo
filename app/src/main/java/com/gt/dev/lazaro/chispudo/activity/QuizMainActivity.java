@@ -1,5 +1,6 @@
 package com.gt.dev.lazaro.chispudo.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -37,14 +38,19 @@ public class QuizMainActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_wiuro_level:
+                startActivity(new Intent(QuizMainActivity.this, WiuroQuizActivity.class));
                 break;
             case R.id.btn_patojo_level:
+                startActivity(new Intent(QuizMainActivity.this, PatojoQuizActivity.class));
                 break;
             case R.id.btn_chilero_level:
+                startActivity(new Intent(QuizMainActivity.this, ChileroQuizActivity.class));
                 break;
             case R.id.btn_pilas_level:
+                startActivity(new Intent(QuizMainActivity.this, PilasQuizActivity.class));
                 break;
             case R.id.btn_chispudo_level:
+                startActivity(new Intent(QuizMainActivity.this, ChispudoQuizActivity.class));
                 break;
         }
     }

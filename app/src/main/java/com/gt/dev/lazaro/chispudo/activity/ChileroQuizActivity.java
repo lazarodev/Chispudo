@@ -6,20 +6,20 @@ import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
 import com.gt.dev.lazaro.chispudo.R;
 
-public class PatojoQuizActivity extends TabStepper {
+public class ChileroQuizActivity extends TabStepper {
 
     private int i = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_patojo_quiz);
+        setContentView(R.layout.activity_chilero_quiz);
 
         boolean linear = getIntent().getBooleanExtra("linear", false);
 
         setErrorTimeout(1500);
         setLinear(linear);
-        setTitle("Tab Stepper <small>(" + (linear ? "" : "Non ") + "Linear)</small>");
+        setTitle("Tab");
         setAlternativeTab(true);
     }
 
@@ -28,10 +28,5 @@ public class PatojoQuizActivity extends TabStepper {
         b.putInt("position", i++);
         fragment.setArguments(b);
         return fragment;
-    }
-
-    @Override
-    public void onComplete() {
-        super.onComplete();
     }
 }

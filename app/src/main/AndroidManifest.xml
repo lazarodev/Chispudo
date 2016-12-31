@@ -18,7 +18,10 @@
         <activity android:name=".SplashActivity" />
         <activity android:name=".activity.WiuroQuizActivity" />
         <activity android:name=".activity.PatojoQuizActivity" />
-        <activity android:name=".activity.QuizMainActivity"></activity>
+        <activity android:name=".activity.QuizMainActivity" />
+        <activity android:name=".activity.ChileroQuizActivity" />
+        <activity android:name=".activity.ChispudoQuizActivity" />
+        <activity android:name=".activity.PilasQuizActivity"></activity>
     </application>
 
 </manifest>
