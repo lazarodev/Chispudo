@@ -8,20 +8,28 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SplashActivity" />
-        <activity android:name=".activity.WiuroQuizActivity" />
-        <activity android:name=".activity.PatojoQuizActivity" />
+        <activity android:name=".activity.SplashActivity" />
+        <activity
+            android:name=".activity.play.WiuroQuizActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.play.PatojoQuizActivity" />
         <activity android:name=".activity.QuizMainActivity" />
-        <activity android:name=".activity.ChileroQuizActivity" />
-        <activity android:name=".activity.ChispudoQuizActivity" />
-        <activity android:name=".activity.PilasQuizActivity"></activity>
+        <activity android:name=".activity.play.ChileroQuizActivity" />
+        <activity android:name=".activity.play.ChispudoQuizActivity" />
+        <activity android:name=".activity.play.PilasQuizActivity" />
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".activity.TextoActivity" />
+        <activity android:name=".activity.GlosarioActivty" />
+        <activity android:name=".activity.AboutActivity"></activity>
     </application>
 
 </manifest>

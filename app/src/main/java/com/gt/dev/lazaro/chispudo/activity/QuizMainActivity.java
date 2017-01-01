@@ -7,6 +7,11 @@ import android.view.View;
 import android.widget.ImageButton;
 
 import com.gt.dev.lazaro.chispudo.R;
+import com.gt.dev.lazaro.chispudo.activity.play.ChileroQuizActivity;
+import com.gt.dev.lazaro.chispudo.activity.play.ChispudoQuizActivity;
+import com.gt.dev.lazaro.chispudo.activity.play.PatojoQuizActivity;
+import com.gt.dev.lazaro.chispudo.activity.play.PilasQuizActivity;
+import com.gt.dev.lazaro.chispudo.activity.play.WiuroQuizActivity;
 
 public class QuizMainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -53,5 +58,10 @@ public class QuizMainActivity extends AppCompatActivity implements View.OnClickL
                 startActivity(new Intent(QuizMainActivity.this, ChispudoQuizActivity.class));
                 break;
         }
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
     }
 }
