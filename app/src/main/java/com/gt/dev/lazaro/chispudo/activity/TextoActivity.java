@@ -1,7 +1,9 @@
 package com.gt.dev.lazaro.chispudo.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -22,6 +24,9 @@ public class TextoActivity extends AppCompatActivity implements AdapterView.OnIt
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_texto);
 
+        // get the toolbar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         lvTexto = (ListView) findViewById(R.id.lv_texto);
 
         categoria.add(new Textos("titulo", "description"));
@@ -35,6 +40,16 @@ public class TextoActivity extends AppCompatActivity implements AdapterView.OnIt
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+        startActivity(new Intent(TextoActivity.this, DetailTextoActivity.class));
+    }
 
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

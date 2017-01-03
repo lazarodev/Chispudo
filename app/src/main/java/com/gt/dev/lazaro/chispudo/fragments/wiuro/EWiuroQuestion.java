@@ -13,25 +13,6 @@ import com.gt.dev.lazaro.chispudo.R;
  * Created by Lazarus on 26/12/2016.
  */
 
-public class EWiuroQuestion extends AbstractStep {
+public class EWiuroQuestion {
 
-    public static int room;
-
-    @Override
-    public String name() {
-        return null;
-    }
-
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.one_wiuro_question, container, false);
-
-        return v;
-    }
-
-    @Override
-    public void onDetach() {
-        super.onDetach();
-    }
 }

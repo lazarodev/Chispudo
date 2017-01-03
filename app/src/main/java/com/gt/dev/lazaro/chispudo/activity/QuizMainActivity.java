@@ -3,6 +3,7 @@ package com.gt.dev.lazaro.chispudo.activity;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
@@ -21,6 +22,9 @@ public class QuizMainActivity extends AppCompatActivity implements View.OnClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_main);
+
+        // Get the toolbar
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         startVars();
     }
@@ -63,5 +67,15 @@ public class QuizMainActivity extends AppCompatActivity implements View.OnClickL
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                finish();
+                break;
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

@@ -1,9 +1,11 @@
 package com.gt.dev.lazaro.chispudo.activity.play;
 
 import android.os.Bundle;
+import android.view.WindowManager;
 
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
+import com.gt.dev.lazaro.chispudo.fragments.wiuro.AWiuroQuestion;
 import com.gt.dev.lazaro.chispudo.fragments.wiuro.EWiuroQuestion;
 
 public class WiuroQuizActivity extends TabStepper {
@@ -13,6 +15,8 @@ public class WiuroQuizActivity extends TabStepper {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+
         boolean linear = getIntent().getBooleanExtra("linear", false);
 
         setErrorTimeout(1500);
@@ -20,7 +24,7 @@ public class WiuroQuizActivity extends TabStepper {
         setTitle("Tab Stepper <small>(" + (linear ? "" : "Non ") + "Linear)</small>");
         setAlternativeTab(true);
 
-        addStep(createFragment(new EWiuroQuestion()));
+        addStep(createFragment(new AWiuroQuestion()));
 
         super.onCreate(savedInstanceState);
     }

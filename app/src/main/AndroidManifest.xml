@@ -16,9 +16,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.SplashActivity" />
-        <activity
-            android:name=".activity.play.WiuroQuizActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activity.play.WiuroQuizActivity" />
         <activity android:name=".activity.play.PatojoQuizActivity" />
         <activity android:name=".activity.QuizMainActivity" />
         <activity android:name=".activity.play.ChileroQuizActivity" />
@@ -29,7 +27,11 @@
             android:label="@string/title_activity_settings" />
         <activity android:name=".activity.TextoActivity" />
         <activity android:name=".activity.GlosarioActivty" />
-        <activity android:name=".activity.AboutActivity"></activity>
+        <activity android:name=".activity.AboutActivity" />
+        <activity
+            android:name=".activity.DetailTextoActivity"
+            android:label="@string/title_activity_detail_texto"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
