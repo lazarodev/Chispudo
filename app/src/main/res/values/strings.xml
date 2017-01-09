@@ -1,7 +1,27 @@
 <resources>
     <string name="app_name">Chispudo</string>
 
-    <string name="one_wiuro_question">¿Cual es el sinonimo de inteligente?</string>
+    <string name="one_wiuro_question">¿Cual es el sinonimo de aguambado?</string>
+    <string name="five_wiuro_question">¿Cual es el sinonimo de caquero?</string>
+    <string name="nine_wiuro_question">¿Cual es el sinonimo de chafa?</string>
+
+    <string name="one_patojo_question">¿Cuál es el sinonimo de cachimbazo?</string>
+    <string name="five_patojo_question">¿Cuál es el sinonimo de cantinear?</string>
+    <string name="nine_patojo_question">¿Cuál es el sinonimo de chele?</string>
+
+
+    <string name="one_chilero_question">¿Cuál es el sinonimo de chucho?</string>
+    <string name="five_chilero_question">¿Cuál es el sinonimo de colocho?</string>
+    <string name="nine_chilero_question">¿Qué es una guaca?</string>
+
+    <string name="one_pilas_question">¿A que se refiere la palabra hueco?</string>
+    <string name="five_pilas_question">¿Cuál es el sinonimo de ishto?</string>
+    <string name="nine_pilas_question">¿Qué significa parar la cola?</string>
+
+    <string name="one_chispudo_question">¿Qué es un patojo?</string>
+    <string name="five_chispudo_question">¿A que le llamamos pisto?</string>
+    <string name="nine_chispudo_question">¿Qué es un chumino?</string>
+
     <string name="title_activity_settings">Settings</string>
 
     <!-- Strings related to Settings -->
@@ -167,4 +187,90 @@
     </string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_detail_texto">DetailTextoActivity</string>
+
+    // GlosarioActivity
+    <string name="aguambado_glosario">Lento</string>
+    <string name="burra_glosario">Camioneta</string>
+    <string name="cachimbazo_glosario">Golpe fuerte</string>
+    <string name="camandula_glosario">Ver burra</string>
+    <string name="cantinear_glosario">Cortejar románticamente</string>
+    <string name="caquero_glosario">Presumido</string>
+    <string name="casaca_glosario">Mentira o palabrerío</string>
+    <string name="chafa_glosario">Falso // Peyorativo de militar</string>
+    <string name="chafarote_glosario">Peyorativo de militar</string>
+    <string name="chaye_glosario">Fragmento de vidrio con bordes filosos</string>
+    <string name="chele_glosario">Lagaña</string>
+    <string name="chocco_glosario">Ciego // Moneda de veinticinco centavos de quetzal</string>
+    <string name="chompipe_glosario">Pavo. El verbo chompipear se refiere pasear sin ningún objetivo particular</string>
+    <string name="chonte_glosario">Peyorativo de policía</string>
+    <string name="chucho_glosario">Perro</string>
+    <string name="chumino_glosario">Perro de la calle // Perro sin raza</string>
+    <string name="chumpa_glosario">Chaqueta o abrigo</string>
+    <string name="chunto_glosario">Ver chompipe</string>
+    <string name="colocho_glosario">Pelo rizado</string>
+    <string name="cuque_glosario">Peyorativo de militar</string>
+    <string name="ficha_glosario">Moneada de cualquier denominación</string>
+    <string name="guaca_glosario">Término abreviado para referirse a ua guacamaay // Vómito</string>
+    <string name="guaro_glosario">Licor</string>
+    <string name="guasa_glosario">Suerte // Broma</string>
+    <string name="hueco_glosario">Cobarde // Homosexual</string>
+    <string name="ishto_gloario">Niño</string>
+    <string name="len_glosario">Ver ficha</string>
+    <string name="ñeque_glosario">Fuerza</string>
+    <string name="pararlacola_glosario">Pasear sin ningún objetivo en particular</string>
+    <string name="patadechcucho_glosario">Término que hace referencia a aquella persona que acostumbra viajar o salir de casa con relativa frecuencia</string>
+    <string name="patojo_glosario">Joven</string>
+    <string name="pisado_glosario">Ver serote</string>
+    <string name="pisto_glosario">Dinero</string>
+    <string name="puchica_glosario">Exclamación para variadas circunstancias</string>
+    <string name="serote_glosario">Amigo // Enimigo // En referencia a heces fecales // otros muy variados</string>
+    <string name="sho_glosario">Indicación para hacer silencio</string>
+    <string name="sholco_glosario">Sin un diente</string>
+    <string name="shuco_glosario">Sucio // Hot Dog según la receta guatemalteca</string>
+    <string name="tinpunco_glosario">De corta estatura</string>
+    <string name="trompudo_glosario">Enojado // Dificil</string>
+    <string name="virula_glosario">Bicicleta</string>
+
+    <string name="aguambado">Aguambado</string>
+    <string name="burra">Burra</string>
+    <string name="cachimbazo">Cachimbazo</string>
+    <string name="camandula">Camándula</string>
+    <string name="cantinear">Cantinear</string>
+    <string name="caquero">Caquero</string>
+    <string name="casaca">Casaca</string>
+    <string name="chafa">Chafa</string>
+    <string name="chafarote">Chafarote</string>
+    <string name="chaye">Chaye</string>
+    <string name="chele">Chele</string>
+    <string name="choco">Choco(a)</string>
+    <string name="chompipe">Chompipe</string>
+    <string name="chonte">Chonte</string>
+    <string name="chucho">Chucho</string>
+    <string name="chumino">Chumino</string>
+    <string name="chumpa">Chumpa</string>
+    <string name="chunto">Chunto</string>
+    <string name="colocho">Colocho</string>
+    <string name="cuque">Cuque</string>
+    <string name="ficha">Ficha</string>
+    <string name="guaca">Guaca</string>
+    <string name="guaro">Guaro</string>
+    <string name="guasa">Guasa</string>
+    <string name="hueco">Hueco</string>
+    <string name="ishto">Ixto o ishto</string>
+    <string name="len">Len</string>
+    <string name="neque">Ñeque</string>
+    <string name="pararlacola">Parar la cola</string>
+    <string name="patachucho">Pata de chucho</string>
+    <string name="patojo">Patojo</string>
+    <string name="pisado">Pisado</string>
+    <string name="pisto">Pisto</string>
+    <string name="puchica">Púchica</string>
+    <string name="serote">Serote o cerote</string>
+    <string name="sho">Sho</string>
+    <string name="sholco">Sholco</string>
+    <string name="shuco">Shuco</string>
+    <string name="tipunco">Tipunco</string>
+    <string name="trompudo">Trompudo</string>
+    <string name="virula">Virula</string>
+
 </resources>
