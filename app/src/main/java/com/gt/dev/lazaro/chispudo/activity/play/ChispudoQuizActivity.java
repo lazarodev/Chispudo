@@ -5,6 +5,9 @@ import android.os.Bundle;
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
 import com.gt.dev.lazaro.chispudo.R;
+import com.gt.dev.lazaro.chispudo.fragments.chispudo.AChispudoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chispudo.EChispudoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chispudo.IChispudoQuestion;
 
 public class ChispudoQuizActivity extends TabStepper {
 
@@ -12,8 +15,6 @@ public class ChispudoQuizActivity extends TabStepper {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chispudo_quiz);
 
         boolean linear = getIntent().getBooleanExtra("linear", false);
 
@@ -21,6 +22,12 @@ public class ChispudoQuizActivity extends TabStepper {
         setLinear(linear);
         setTitle("Title");
         setAlternativeTab(true);
+
+        addStep(createFragment(new AChispudoQuestion()));
+        addStep(createFragment(new EChispudoQuestion()));
+        addStep(createFragment(new IChispudoQuestion()));
+
+        super.onCreate(savedInstanceState);
     }
 
     private AbstractStep createFragment(AbstractStep fragment) {

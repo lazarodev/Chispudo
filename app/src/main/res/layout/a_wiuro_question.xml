@@ -15,37 +15,39 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btn_lento_wiuro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:background="@android:color/transparent"
-        android:text="Respuesta #1"
+        android:text="@string/a_one_wiuro_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_inteligente_wiuro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="Respuesta #2"
+        android:text="@string/a_two_wiuro_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btn_audaz_wiuro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="Respuesta #3"
+        android:text="@string/a_three_wiuro_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
+        android:id="@+id/btn_astuto_wiuro"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="Respuesta #4"
+        android:text="@string/a_four_wiuro_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 </LinearLayout>

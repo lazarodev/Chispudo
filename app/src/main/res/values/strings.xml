@@ -1,26 +1,121 @@
 <resources>
     <string name="app_name">Chispudo</string>
 
+    //wiuro one question
     <string name="one_wiuro_question">¿Cual es el sinonimo de aguambado?</string>
+    //respuestas
+    //goodone
+    <string name="a_one_wiuro_response">Lento</string>
+    //wrong
+    <string name="a_two_wiuro_response">Inteligente</string>
+    <string name="a_three_wiuro_response">Audaz</string>
+    <string name="a_four_wiuro_response">Astuto</string>
+
+    // wiuro two question
     <string name="five_wiuro_question">¿Cual es el sinonimo de caquero?</string>
+    //respuestas
+    <string name="e_one_wiuro_response">Ladron</string>
+    <string name="e_two_wiuro_response">Tonto</string>
+    //goodone
+    <string name="e_three_wiuro_response">Presumido</string>
+    <string name="e_four_wiuro_response">Mala persona</string>
+
+    // wiuro three question
     <string name="nine_wiuro_question">¿Cual es el sinonimo de chafa?</string>
+    // respuestas
+    <string name="i_one_wiuro_response">Producto malo</string>
+    <string name="i_two_wiuro_response">Interesante</string>
+    <string name="i_three_wiuro_response">Basura</string>
+    <string name="i_four_wiuro_response">Falso</string>
 
-    <string name="one_patojo_question">¿Cuál es el sinonimo de cachimbazo?</string>
-    <string name="five_patojo_question">¿Cuál es el sinonimo de cantinear?</string>
-    <string name="nine_patojo_question">¿Cuál es el sinonimo de chele?</string>
+    // patojo a question
+    <string name="a_patojo_question">¿Cuál es el sinonimo de cachimbazo?</string>
+    //respuestas
+    <string name="a_one_patojo_response">Tonteria</string>
+    <string name="a_two_patojo_response">Estres</string>
+    <string name="a_three_patojo_response">Innovacion</string>
+    // correct answer
+    <string name="a_four_patojo_response">Golpe fuerte</string>
+
+    // patojo e question
+    <string name="e_patojo_question">¿Que significa cantinear?</string>
+    // respuestas
+    // correct answer
+    <string name="e_one_patojo_response">Cortejar romanticamente</string>
+    <string name="e_two_patojo_response">Casaca</string>
+    <string name="e_three_patojo_response">Psicodelia</string>
+    <string name="e_four_patojo_response">Ser catinero</string>
+
+    // patojo i question
+    <string name="i_patojo_question">¿Cuál es el sinonimo de chele?</string>
+    //respuestas
+    <string name="i_one_patojo_response">Lagarto</string>
+    <string name="i_two_patojo_response">Lagaña</string>
+    <string name="i_three_patojo_response">Cerveza</string>
+
+    // chilero a question
+    <string name="a_chilero_question">¿Cuál es el sinonimo de chucho?</string>
+    // answers
+    <string name="a_one_chilero_response">Mascota</string>
+    <string name="a_two_chilero_response">Gatos</string>
+    <string name="a_three_chilero_response">Perro</string>
+    <string name="a_four_chilero_response">Tuercas</string>
+
+    // chilero e question
+    <string name="e_chilero_question">¿Cuál es el sinonimo de colocho?</string>
+    // answers
+    <string name="e_one_chilero_response">Pelo liso</string>
+    <string name="e_two_chilero_response">Pelo ondulado</string>
+    <string name="e_three_chilero_response">Pelo rizado</string>
+    <string name="e_four_chilero_response">Pelo crespo</string>
+
+    // chilero i question
+    <string name="i_chilero_question">¿Qué es una guaca?</string>
+    //answers
+    <string name="i_one_chilero_response">Termino abreviado para referirse a una guacamaya</string>
+    <string name="i_two_chilero_response">Vómito</string>
+    <string name="i_three_chilero_response">Alcohol</string>
+
+    // pilas A question
+    <string name="a_pilas_question">¿A que se refiere la palabra hueco?</string>
+    // answers
+    <string name="a_one_pilas_response">Agujero</string>
+    <string name="a_two_pilas_resopnse">Vacio</string>
+    <string name="a_three_pilas_response">Homosexual</string>
+
+    // pilas E question
+    <string name="e_pilas_question">¿Cuál es el sinonimo de ishto?</string>
+    // answers
+    <string name="e_one_pilas_response">Niño</string>
+    <string name="e_two_pilas_response">Muchacho</string>
+    <string name="e_three_pilas_response">Patojo</string>
+
+    // pilas I question
+    <string name="i_pilas_question">¿Cuál significa parar la cola?</string>
+    // answers
+    <string name="i_one_pilas_response">Pasear sin ningún objetivo en particular</string>
+    <string name="i_two_pilas_response">Mover el trasero</string>
+    <string name="i_three_pilas_response">Interactuar con la gente</string>
+
+    // pilas A chispudo
+    <string name="a_chispudo_question">¿Qué es un patojo?</string>
+    // answers
+    <string name="a_one_chispudo_response">Muchacho</string>
+    <string name="a_two_chispudo_response">Joven</string>
 
 
-    <string name="one_chilero_question">¿Cuál es el sinonimo de chucho?</string>
-    <string name="five_chilero_question">¿Cuál es el sinonimo de colocho?</string>
-    <string name="nine_chilero_question">¿Qué es una guaca?</string>
+    // pilas E chispudo
+    <string name="e_chispudo_question">¿A que le llamamos pisto?</string>
+    // answers
+    <string name="e_one_chispudo_response">Cash</string>
+    <string name="e_two_chispudo_response">Suelo</string>
+    <string name="e_three_chispudo_response">Dinero</string>
 
-    <string name="one_pilas_question">¿A que se refiere la palabra hueco?</string>
-    <string name="five_pilas_question">¿Cuál es el sinonimo de ishto?</string>
-    <string name="nine_pilas_question">¿Qué significa parar la cola?</string>
-
-    <string name="one_chispudo_question">¿Qué es un patojo?</string>
-    <string name="five_chispudo_question">¿A que le llamamos pisto?</string>
-    <string name="nine_chispudo_question">¿Qué es un chumino?</string>
+    // pilas I chispudo
+    <string name="i_chispudo_question">¿Qué es un chumino?</string>
+    // answers
+    <string name="i_one_chispudo_response">Perro de la calle</string>
+    <string name="i_two_chispudo_response">Shumo</string>
 
     <string name="title_activity_settings">Settings</string>
 

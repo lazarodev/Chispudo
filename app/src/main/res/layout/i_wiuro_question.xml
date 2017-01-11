@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/nine_wiuro_question"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_lento_wiuro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/transparent"
+        android:text="@string/i_one_wiuro_response"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_inteligente_wiuro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/i_two_wiuro_response"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_audaz_wiuro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/i_three_wiuro_response"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_astuto_wiuro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:text="@string/i_four_wiuro_response"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="14sp" />
 </LinearLayout>

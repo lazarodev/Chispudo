@@ -5,6 +5,9 @@ import android.os.Bundle;
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
 import com.gt.dev.lazaro.chispudo.R;
+import com.gt.dev.lazaro.chispudo.fragments.patojo.APatojoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.patojo.EPatojoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.patojo.IPatojoQuestion;
 
 public class PatojoQuizActivity extends TabStepper {
 
@@ -12,8 +15,6 @@ public class PatojoQuizActivity extends TabStepper {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_patojo_quiz);
 
         boolean linear = getIntent().getBooleanExtra("linear", false);
 
@@ -21,6 +22,12 @@ public class PatojoQuizActivity extends TabStepper {
         setLinear(linear);
         setTitle("Tab Stepper <small>(" + (linear ? "" : "Non ") + "Linear)</small>");
         setAlternativeTab(true);
+
+        addStep(createFragment(new APatojoQuestion()));
+        addStep(createFragment(new EPatojoQuestion()));
+        addStep(createFragment(new IPatojoQuestion()));
+
+        super.onCreate(savedInstanceState);
     }
 
     private AbstractStep createFragment(AbstractStep fragment) {

@@ -16,12 +16,24 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.SplashActivity" />
-        <activity android:name=".activity.play.WiuroQuizActivity" />
-        <activity android:name=".activity.play.PatojoQuizActivity" />
-        <activity android:name=".activity.QuizMainActivity" />
-        <activity android:name=".activity.play.ChileroQuizActivity" />
-        <activity android:name=".activity.play.ChispudoQuizActivity" />
-        <activity android:name=".activity.play.PilasQuizActivity" />
+        <activity
+            android:name=".activity.play.WiuroQuizActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.play.PatojoQuizActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.QuizMainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.play.ChileroQuizActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.play.ChispudoQuizActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".activity.play.PilasQuizActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name=".activity.SettingsActivity"
             android:label="@string/title_activity_settings" />

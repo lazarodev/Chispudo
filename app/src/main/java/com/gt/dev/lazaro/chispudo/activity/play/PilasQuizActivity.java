@@ -5,6 +5,9 @@ import android.os.Bundle;
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
 import com.gt.dev.lazaro.chispudo.R;
+import com.gt.dev.lazaro.chispudo.fragments.pilas.APilasQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.pilas.EPilasQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.pilas.IPilasQuestion;
 
 public class PilasQuizActivity extends TabStepper {
 
@@ -12,8 +15,6 @@ public class PilasQuizActivity extends TabStepper {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pilas_quiz);
 
         boolean linear = getIntent().getBooleanExtra("linear", false);
 
@@ -21,6 +22,12 @@ public class PilasQuizActivity extends TabStepper {
         setLinear(linear);
         setTitle("Title");
         setAlternativeTab(true);
+
+        addStep(createFragment(new APilasQuestion()));
+        addStep(createFragment(new EPilasQuestion()));
+        addStep(createFragment(new IPilasQuestion()));
+
+        super.onCreate(savedInstanceState);
     }
 
     private AbstractStep createFragment(AbstractStep fragment) {

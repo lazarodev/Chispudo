@@ -7,6 +7,7 @@ import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
 import com.gt.dev.lazaro.chispudo.fragments.wiuro.AWiuroQuestion;
 import com.gt.dev.lazaro.chispudo.fragments.wiuro.EWiuroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.wiuro.IWiuroQuest;
 
 public class WiuroQuizActivity extends TabStepper {
 
@@ -25,6 +26,8 @@ public class WiuroQuizActivity extends TabStepper {
         setAlternativeTab(true);
 
         addStep(createFragment(new AWiuroQuestion()));
+        addStep(createFragment(new EWiuroQuestion()));
+        addStep(createFragment(new IWiuroQuest()));
 
         super.onCreate(savedInstanceState);
     }

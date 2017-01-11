@@ -1,10 +1,14 @@
 package com.gt.dev.lazaro.chispudo.activity.play;
 
 import android.os.Bundle;
+import android.view.WindowManager;
 
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
 import com.gt.dev.lazaro.chispudo.R;
+import com.gt.dev.lazaro.chispudo.fragments.chilero.AChileroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chilero.EChileroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chilero.IChileroQuestion;
 
 public class ChileroQuizActivity extends TabStepper {
 
@@ -12,15 +16,21 @@ public class ChileroQuizActivity extends TabStepper {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chilero_quiz);
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         boolean linear = getIntent().getBooleanExtra("linear", false);
 
         setErrorTimeout(1500);
         setLinear(linear);
-        setTitle("Tab");
+        setTitle("Tab Stepper <small>(" + (linear ? "" : "Non ") + "Linear)</small>");
         setAlternativeTab(true);
+
+        addStep(createFragment(new AChileroQuestion()));
+        addStep(createFragment(new EChileroQuestion()));
+        addStep(createFragment(new IChileroQuestion()));
+        super.onCreate(savedInstanceState);
+
     }
 
     private AbstractStep createFragment(AbstractStep fragment) {
