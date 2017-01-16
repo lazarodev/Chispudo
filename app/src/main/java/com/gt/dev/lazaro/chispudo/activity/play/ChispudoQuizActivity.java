@@ -1,6 +1,7 @@
 package com.gt.dev.lazaro.chispudo.activity.play;
 
 import android.os.Bundle;
+import android.view.WindowManager;
 
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
@@ -15,6 +16,8 @@ public class ChispudoQuizActivity extends TabStepper {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         boolean linear = getIntent().getBooleanExtra("linear", false);
 

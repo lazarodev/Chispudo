@@ -1,6 +1,7 @@
 package com.gt.dev.lazaro.chispudo.activity.play;
 
 import android.os.Bundle;
+import android.view.View;
 import android.view.WindowManager;
 
 import com.github.fcannizzaro.materialstepper.AbstractStep;

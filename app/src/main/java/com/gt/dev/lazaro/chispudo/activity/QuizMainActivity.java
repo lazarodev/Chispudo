@@ -23,9 +23,6 @@ public class QuizMainActivity extends AppCompatActivity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_main);
 
-        // Get the toolbar
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-
         startVars();
     }
 

@@ -11,7 +11,20 @@
     <string name="a_three_wiuro_response">Audaz</string>
     <string name="a_four_wiuro_response">Astuto</string>
 
-    // wiuro two question
+    // wiuro b question
+    <string name="b_wiuro_question">¿En que laguna hay tanta paz que los peces no conocen la agresión humana de ninguna manera?</string>
+    // respuestas
+    <string name="b_one_wiuro_response">Laguna lachuá</string>
+
+    // wiuro c question
+    <string name="c_wiuro_question">¿Qué artista ha veniddo más discos en la historia de Centroamérica?</string>
+    // answers
+    <string name="c_one_wiuro_response">Tiesto</string>
+    <string name="c_two_wiuro_response">Gaby Moreno</string>
+    <string name="c_three_wiuro_response">Mana</string>
+    <string name="c_four_wiuro_response">Ricardo Arjona</string>
+
+    // wiuro e question
     <string name="five_wiuro_question">¿Cual es el sinonimo de caquero?</string>
     //respuestas
     <string name="e_one_wiuro_response">Ladron</string>
@@ -37,6 +50,19 @@
     // correct answer
     <string name="a_four_patojo_response">Golpe fuerte</string>
 
+    // patojo b question
+    <string name="b_patojo_question">¿Como se llama la casca que se encuentra en Izabal?</string>
+    //respuestas
+    <string name="b_one_patojo_response">Cascada del paraíso</string>
+
+    // patojo c question
+    <string name="c_patojo_question">¿Quién a sus 12 y 13 años fue nombrada "All Around Artist" en el world championship of performing arts?</string>
+    // answers
+    <string name="c_one_response">Ricardo Arjona</string>
+    <string name="c_two_resposne">Stephanie Zelaya</string>
+    <string name="c_three_response">Rihana</string>
+    <string name="c_four_response">Fabiola Rodas</string>
+
     // patojo e question
     <string name="e_patojo_question">¿Que significa cantinear?</string>
     // respuestas
@@ -61,6 +87,19 @@
     <string name="a_three_chilero_response">Perro</string>
     <string name="a_four_chilero_response">Tuercas</string>
 
+    // chilero b question
+    <string name="b_chilero_question">¿En que volcán hay una pequeña cueva?</string>
+    // answers
+    <string name="b_one_chilero_response">Volcán de ipala</string>
+
+    // chilero c question
+    <string name="c_chilero_question">¿Cuando fue el paro nacional de mayor impacto en la sociedad guatemalteca del siglo XXI?</string>
+    // answers
+    <string name="c_one_chilero_response">15 de septiembre</string>
+    <string name="c_two_chilero_response">7 de diciembre</string>
+    <string name="c_three_chilero_response">31 de octubre</string>
+    <string name="c_four_chilero_response">27 de agosto 2015</string>
+
     // chilero e question
     <string name="e_chilero_question">¿Cuál es el sinonimo de colocho?</string>
     // answers
@@ -83,6 +122,13 @@
     <string name="a_two_pilas_resopnse">Vacio</string>
     <string name="a_three_pilas_response">Homosexual</string>
 
+    // pilas b question
+    <string name="b_pilas_question">¿Es cierto que quirigua tiene la estela más alta conocida?</string>
+    // answers
+    <string name="b_one_pilas_response">Verdad</string>
+    <string name="b_two_pilas_resposne">Mentira</string>
+    <string name="b_three_pilas_response">No lo se</string>
+
     // pilas E question
     <string name="e_pilas_question">¿Cuál es el sinonimo de ishto?</string>
     // answers
@@ -97,11 +143,18 @@
     <string name="i_two_pilas_response">Mover el trasero</string>
     <string name="i_three_pilas_response">Interactuar con la gente</string>
 
-    // pilas A chispudo
+    // A chispudo
     <string name="a_chispudo_question">¿Qué es un patojo?</string>
     // answers
     <string name="a_one_chispudo_response">Muchacho</string>
     <string name="a_two_chispudo_response">Joven</string>
+
+    // b chispudo
+    <string name="b_chispudo_question">¿Quien es la embajadora o embajador de la cultua gastronómica guatemalteca?</string>
+    // answers
+    <string name="b_one_chispudo_response">Mario Campollo</string>
+    <string name="b_two_chispudo_response">Mirciny Moliviatis</string>
+    <string name="b_three_chispudo_response">Chef ramnsi</string>
 
 
     // pilas E chispudo
@@ -116,6 +169,9 @@
     // answers
     <string name="i_one_chispudo_response">Perro de la calle</string>
     <string name="i_two_chispudo_response">Shumo</string>
+
+
+    // SEPARATOR I
 
     <string name="title_activity_settings">Settings</string>
 
