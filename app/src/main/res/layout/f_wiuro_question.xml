@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     android:orientation="vertical">
 
     <TextView
@@ -10,7 +11,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="@string/five_wiuro_question"
+        android:text="@string/six_wiuro_question"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -20,7 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="@android:color/transparent"
-        android:text="@string/a_one_wiuro_response"
+        android:text="@string/f_one_wiuro_question"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
@@ -29,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_two_wiuro_response"
+        android:text="@string/f_two_wiuro_question"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
@@ -38,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_three_wiuro_response"
+        android:text="@string/f_three_wiuro_question"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
@@ -47,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_four_wiuro_response"
+        android:text="@string/f_four_wiuro_question"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 

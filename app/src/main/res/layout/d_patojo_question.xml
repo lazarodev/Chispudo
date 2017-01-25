@@ -9,44 +9,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/one_wiuro_question"
+        android:text="@string/d_patojo_question"
         android:textSize="18sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn_lento_wiuro"
+        android:id="@+id/btn_d_one_patojo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="@android:color/transparent"
-        android:text="@string/a_one_wiuro_response"
+        android:text="@string/d_one_patojo_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_inteligente_wiuro"
+        android:id="@+id/btn_d_two_patojo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_two_wiuro_response"
+        android:text="@string/d_three_patojo_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_audaz_wiuro"
+        android:id="@+id/btn_d_three_patojo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_three_wiuro_response"
+        android:text="@string/d_three_patojo_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_astuto_wiuro"
+        android:id="@+id/btn_d_four_patojo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_four_wiuro_response"
+        android:text="@string/d_four_patojo_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 

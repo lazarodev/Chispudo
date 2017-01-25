@@ -7,8 +7,14 @@ import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
 import com.gt.dev.lazaro.chispudo.R;
 import com.gt.dev.lazaro.chispudo.fragments.chilero.AChileroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chilero.BChileroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chilero.CChileroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chilero.DChileroQuestion;
 import com.gt.dev.lazaro.chispudo.fragments.chilero.EChileroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chilero.FChileroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chilero.GChileroQuestion;
 import com.gt.dev.lazaro.chispudo.fragments.chilero.IChileroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chilero.JChileroQuestion;
 
 public class ChileroQuizActivity extends TabStepper {
 
@@ -27,8 +33,14 @@ public class ChileroQuizActivity extends TabStepper {
         setAlternativeTab(true);
 
         addStep(createFragment(new AChileroQuestion()));
+        addStep(createFragment(new BChileroQuestion()));
+        addStep(createFragment(new CChileroQuestion()));
+        addStep(createFragment(new DChileroQuestion()));
         addStep(createFragment(new EChileroQuestion()));
+        addStep(createFragment(new FChileroQuestion()));
+        addStep(createFragment(new GChileroQuestion()));
         addStep(createFragment(new IChileroQuestion()));
+        addStep(createFragment(new JChileroQuestion()));
         super.onCreate(savedInstanceState);
 
     }

@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">Chispudo</string>
 
-    //wiuro one question
+    // 1. wiuro one question
     <string name="one_wiuro_question">¿Cual es el sinonimo de aguambado?</string>
     //respuestas
     //goodone
@@ -11,12 +11,12 @@
     <string name="a_three_wiuro_response">Audaz</string>
     <string name="a_four_wiuro_response">Astuto</string>
 
-    // wiuro b question
+    // 2. wiuro b question
     <string name="b_wiuro_question">¿En que laguna hay tanta paz que los peces no conocen la agresión humana de ninguna manera?</string>
     // respuestas
     <string name="b_one_wiuro_response">Laguna lachuá</string>
 
-    // wiuro c question
+    // 3. wiuro c question
     <string name="c_wiuro_question">¿Qué artista ha veniddo más discos en la historia de Centroamérica?</string>
     // answers
     <string name="c_one_wiuro_response">Tiesto</string>
@@ -24,7 +24,15 @@
     <string name="c_three_wiuro_response">Mana</string>
     <string name="c_four_wiuro_response">Ricardo Arjona</string>
 
-    // wiuro e question
+    // 4. wiuro d question
+    <string name="d_wiuro_question">¿Cuál de los siguientes platos fue nombrado patrimonio cultura intagible de la nación?</string>
+    //respuestas
+    <string name="d_one_wiuro_question">Pepian</string>
+    <string name="d_two_wiuro_question">Atol de elote</string>
+    <string name="d_three_wiuro_question">Chicharrones</string>
+    <string name="d_four_wiuro_question">Sopa de tortuga</string>
+
+    // 5. wiuro e question
     <string name="five_wiuro_question">¿Cual es el sinonimo de caquero?</string>
     //respuestas
     <string name="e_one_wiuro_response">Ladron</string>
@@ -33,7 +41,31 @@
     <string name="e_three_wiuro_response">Presumido</string>
     <string name="e_four_wiuro_response">Mala persona</string>
 
-    // wiuro three question
+    // 6. wiuro f question
+    <string name="six_wiuro_question">¿Cual es el estadio deportivo más grande de Guatemala?</string>
+    //respuestas
+    <string name="f_one_wiuro_question">Estadio la mesilla</string>
+    <string name="f_two_wiuro_question">Camp nou</string>
+    <string name="f_three_wiuro_question">Estadio Cementos progreso</string>
+    <string name="f_four_wiuro_question">Estadio Mateo Flores</string>
+
+    // 7. wiuro g questio
+    <string name="seven_wiuro_question">¿Cuántos años tiene Guatemala?</string>
+    // answers
+    <string name="g_one_wiuro_question">230 años</string>
+    <string name="g_two_wiuro_question">115 años</string>
+    <string name="g_three_wiuro_question">195 años</string>
+    <string name="g_four_wiuro_question">400 años</string>
+
+    // 8. wiuro h question
+    <string name="eigth_wiuro_question">¿Según los expertos cuál es la segunda ciudad de Guatemala?</string>
+    // respuestas
+    <string name="h_one_wiuro_question">Chiquimula</string>
+    <string name="h_two_wiuro_question">Antigua Guatemala</string>
+    <string name="h_three_wiuro_question">Xela</string>
+    <string name="h_four_wiuro_question">Zona 1</string>
+
+    // 9. wiuro i three question
     <string name="nine_wiuro_question">¿Cual es el sinonimo de chafa?</string>
     // respuestas
     <string name="i_one_wiuro_response">Producto malo</string>
@@ -41,7 +73,16 @@
     <string name="i_three_wiuro_response">Basura</string>
     <string name="i_four_wiuro_response">Falso</string>
 
-    // patojo a question
+    // 10. wiuro j question
+    <string name="ten_wiuro_question">¿Cuál es el volcán más grande de Guatemala?</string>
+    // respuestas
+    <string name="j_one_wiuro_question">Volcán de pacaya</string>
+    <string name="j_two_wiuro_question">Volcán de Agua</string>
+    <string name="j_three_wiuro_question">Volcán de Fuego</string>
+    <string name="j_four_wiuro_question">Volcán de tajumulco</string>
+
+
+    // 1. patojo a question
     <string name="a_patojo_question">¿Cuál es el sinonimo de cachimbazo?</string>
     //respuestas
     <string name="a_one_patojo_response">Tonteria</string>
@@ -50,12 +91,12 @@
     // correct answer
     <string name="a_four_patojo_response">Golpe fuerte</string>
 
-    // patojo b question
-    <string name="b_patojo_question">¿Como se llama la casca que se encuentra en Izabal?</string>
+    // 2. patojo b question
+    <string name="b_patojo_question">¿Como se llama la cascada que se encuentra en Izabal?</string>
     //respuestas
     <string name="b_one_patojo_response">Cascada del paraíso</string>
 
-    // patojo c question
+    // 3. patojo c question
     <string name="c_patojo_question">¿Quién a sus 12 y 13 años fue nombrada "All Around Artist" en el world championship of performing arts?</string>
     // answers
     <string name="c_one_response">Ricardo Arjona</string>
@@ -63,7 +104,15 @@
     <string name="c_three_response">Rihana</string>
     <string name="c_four_response">Fabiola Rodas</string>
 
-    // patojo e question
+    // 4. patojo d question
+    <string name="d_patojo_question">Según el último estudoi de redes sociales realizado por iLifebelt, ¿Cuál es la app favorita por tada Centroamérica y del caribe</string>
+    // respuestas
+    <string name="d_one_patojo_response">Facebook</string>
+    <string name="d_two_patojo_response">Whatsapp</string>
+    <string name="d_three_patojo_response">Snapchat</string>
+    <string name="d_four_patojo_response">Twitter</string>
+
+    // 5. patojo e question
     <string name="e_patojo_question">¿Que significa cantinear?</string>
     // respuestas
     // correct answer
@@ -72,14 +121,46 @@
     <string name="e_three_patojo_response">Psicodelia</string>
     <string name="e_four_patojo_response">Ser catinero</string>
 
-    // patojo i question
+    // 6. patojo f question
+    <string name="f_patojo_question">Según el estudio de iLifebelt ¿Cuál es el país con mayor cantidad de usario en Centroamérica?</string>
+    //respuestas
+    <string name="f_one_patojo_response">Nicaragua</string>
+    <string name="f_two_patojo_response">Panama</string>
+    <string name="f_three_patojo_response">El Salvador</string>
+    <string name="f_four_patojo_response">Guatemala</string>
+
+    // 7. patojo g question
+    <string name="g_patojo_question">¿Qué ranking tiene Guatemala a nivel mundial de cantidad de usuarios en Facebook?</string>
+    //respuestas
+    <string name="g_one_patojo_response">49</string>
+    <string name="g_two_patojo_response">10</string>
+    <string name="g_three_patojo_response">2</string>
+    <string name="g_four_patojo_response">89</string>
+
+    // 8. patojo h question
+    <string name="h_patojo_question">¿En que tipo de suelo sale el mejor café de Gautemala?</string>
+    // respuestas
+    <string name="h_one_patojo_response">El de mi jardin xD</string>
+    <string name="h_two_patojo_response">Suelo Humedo</string>
+    <string name="h_three_patojo_response">De origen volcánico</string>
+    <string name="h_four_patojo_response">De origen rocoso</string>
+
+    // 9. patojo i question
     <string name="i_patojo_question">¿Cuál es el sinonimo de chele?</string>
     //respuestas
     <string name="i_one_patojo_response">Lagarto</string>
     <string name="i_two_patojo_response">Lagaña</string>
     <string name="i_three_patojo_response">Cerveza</string>
 
-    // chilero a question
+    // 10. patojo j question
+    <string name="j_patojo_question">¿En cuál de estos departamentos cultivan café?</string>
+    //respuestas
+    <string name="j_one_patojo_response">Huhuetenango</string>
+    <string name="j_two_patojo_response">Santa Rosa</string>
+    <string name="j_three_patojo_response">Chiapas</string>
+    <string name="j_four_patojo_response">Chimaltenango</string>
+
+    // 1. chilero a question
     <string name="a_chilero_question">¿Cuál es el sinonimo de chucho?</string>
     // answers
     <string name="a_one_chilero_response">Mascota</string>
@@ -87,12 +168,12 @@
     <string name="a_three_chilero_response">Perro</string>
     <string name="a_four_chilero_response">Tuercas</string>
 
-    // chilero b question
+    // 2. chilero b question
     <string name="b_chilero_question">¿En que volcán hay una pequeña cueva?</string>
     // answers
     <string name="b_one_chilero_response">Volcán de ipala</string>
 
-    // chilero c question
+    // 3. chilero c question
     <string name="c_chilero_question">¿Cuando fue el paro nacional de mayor impacto en la sociedad guatemalteca del siglo XXI?</string>
     // answers
     <string name="c_one_chilero_response">15 de septiembre</string>
@@ -100,7 +181,15 @@
     <string name="c_three_chilero_response">31 de octubre</string>
     <string name="c_four_chilero_response">27 de agosto 2015</string>
 
-    // chilero e question
+    // 4. chilero d question
+    <string name="d_chilero_question">Cuál es la app represtativa de las recetas típicas guatemaltecas?</string>
+    // respuestas
+    <string name="d_one_chilero_response">CookPad</string>
+    <string name="d_two_chilero_response">Chispudo</string>
+    <string name="d_three_chilero_response">Tiahue</string>
+    <string name="d_four_chilero_response">ElCaldo</string>
+
+    // 5. chilero e question
     <string name="e_chilero_question">¿Cuál es el sinonimo de colocho?</string>
     // answers
     <string name="e_one_chilero_response">Pelo liso</string>
@@ -108,33 +197,105 @@
     <string name="e_three_chilero_response">Pelo rizado</string>
     <string name="e_four_chilero_response">Pelo crespo</string>
 
-    // chilero i question
+    // 6. chilero f question
+    <string name="f_chilero_question">¿En que año Guatemala gano el primer lugar de la exhibición Mundial de Paris en café?</string>
+    // respuestas
+    <string name="f_one_chilero_response">1888</string>
+    <string name="f_two_chilero_response">1988</string>
+    <string name="f_three_chilero_response">1889</string>
+    <string name="f_four_chilero_response">1788</string>
+
+    // 7. chilero g question
+    <string name="g_chilero_question">¿Quién fue uno de los libertadores indígenas más influyentes del levantamiento indígena de Totonicapán de 1820 que derroco el poder español?</string>
+    // respuestas
+    <string name="g_one_chilero_response">Tecun Human</string>
+    <string name="g_two_chilero_response">Pedro de Alvarado</string>
+    <string name="g_three_chilero_response">Fernando Lazaro</string>
+    <string name="g_four_chilero_response">Atanasio Tzul</string>
+
+    // 8. chilero h question
+    <string name="h_chilero_question">¿Quién es el único experto de tecnologías Google en Latinoamérica?</string>
+    // respuestas
+    <string name="h_one_chilero_question">Adrian Catalan</string>
+    <string name="h_two_chilero_question">Luis Von Ahn</string>
+    <string name="h_three_chilero_question">Christian Van Der hest</string>
+    <string name="h_four_chilero_question">Jose Kont</string>
+
+    // 9. chilero i question
     <string name="i_chilero_question">¿Qué es una guaca?</string>
     //answers
     <string name="i_one_chilero_response">Termino abreviado para referirse a una guacamaya</string>
     <string name="i_two_chilero_response">Vómito</string>
     <string name="i_three_chilero_response">Alcohol</string>
 
-    // pilas A question
+    // 10. chilero j question
+    <string name="j_chilero_question">¿Cuál es la app que desarticula la mafia de clulares robados en Guatemala?</string>
+    // repuestas
+    <string name="j_one_chilero_response">Alertito</string>
+    <string name="j_two_chilero_response">Verto App</string>
+    <string name="j_three_chilero_response">ElCaldo</string>
+    <string name="j_four_chilero_response">ImeiDB</string>
+
+    // 1. pilas A question
     <string name="a_pilas_question">¿A que se refiere la palabra hueco?</string>
     // answers
     <string name="a_one_pilas_response">Agujero</string>
     <string name="a_two_pilas_resopnse">Vacio</string>
     <string name="a_three_pilas_response">Homosexual</string>
 
-    // pilas b question
+    // 2. pilas b question
     <string name="b_pilas_question">¿Es cierto que quirigua tiene la estela más alta conocida?</string>
     // answers
     <string name="b_one_pilas_response">Verdad</string>
     <string name="b_two_pilas_resposne">Mentira</string>
     <string name="b_three_pilas_response">No lo se</string>
 
-    // pilas E question
-    <string name="e_pilas_question">¿Cuál es el sinonimo de ishto?</string>
+    // 3. pilas C question
+    <string name="c_pilas_question">¿Qué guatemalteco le vendió una herramientade verificación de usuario a Google?</string>
+    // respuestas
+    <string name="c_one_pilas_response">Luis Von Ahn</string>
+    <string name="c_two_pilas_response">Fernando Lazaro</string>
+    <string name="c_three_pilas_response">Ricardo Arjona</string>
+    <string name="c_four_pilas_response">Luis Cifuentes</string>
+
+    // 4. pilas D question
+    <string name="d_pilas_question">¿Cuál es el sinonimo de ishto?</string>
     // answers
-    <string name="e_one_pilas_response">Niño</string>
-    <string name="e_two_pilas_response">Muchacho</string>
-    <string name="e_three_pilas_response">Patojo</string>
+    <string name="d_one_pilas_response">Niño</string>
+    <string name="d_two_pilas_response">Muchacho</string>
+    <string name="d_three_pilas_response">Patojo</string>
+
+    // 5. pilas E question
+    <string name="e_pilas_question">¿Cuál fue el producto interno bruto (PIB) de Guatemala en el 2013?</string>
+    // respuestas
+    <string name="e_one_pilas_response">183 miles de millones de dolares USD</string>
+    <string name="e_two_pilas_response">200 miles de millones de dolares USD</string>
+    <string name="e_three_pilas_response">700.5 miles de millones de dolares USD</string>
+    <string name="e_four_pilas_response">53.8 miles de millones de dolares USD</string>
+
+    // 6. pilas F question
+    <string name="f_pilas_question">Semana más esperada por la religión católica en el año</string>
+    // respuestas
+    <string name="f_one_pilas_response">Semana de fin de año</string>
+    <string name="f_two_pilas_response">Black Week</string>
+    <string name="f_three_pilas_response">Vacaciones</string>
+    <string name="f_four_pilas_response">Semana Santa</string>
+
+    // 7. pilas G question
+    <string name="g_pilas_question">Cuál es el nombre oficial de la ciudad de Guatemala?</string>
+    // respuestas
+    <string name="g_one_pilas_question">Valle de la hermita</string>
+    <string name="g_two_pilas_question">Nueva Guatemala de la Asunción</string>
+    <string name="g_three_pilas_question">Ciudad Capital</string>
+    <string name="g_four_pilas_question">Guatemala</string>
+
+    // 8. pilas H question
+    <string name="h_pilas_question">¿Cuál fue la última lluvia de ceniza de volca de alta magnitud?</string>
+    // respuestas
+    <string name="h_one_pilas_response">25 de Mayo del 2011</string>
+    <string name="h_two_pilas_response">8 de Junio del 2008</string>
+    <string name="h_three_pilas_response">10 de Mayo del 2011</string>
+    <string name="h_four_pilas_response">26 de Septiembre del 1997</string>
 
     // pilas I question
     <string name="i_pilas_question">¿Cuál significa parar la cola?</string>
@@ -142,6 +303,14 @@
     <string name="i_one_pilas_response">Pasear sin ningún objetivo en particular</string>
     <string name="i_two_pilas_response">Mover el trasero</string>
     <string name="i_three_pilas_response">Interactuar con la gente</string>
+
+    // 10. pilas j question
+    <string name="j_pilas_question">¿Cómo es conocida zona 10?</string>
+    // respuestas
+    <string name="j_one_pilas_response">Zona Viva</string>
+    <string name="j_two_pilas_response">La Zona</string>
+    <string name="j_three_pilas_response">La mera</string>
+    <string name="j_four_pilas_response">Zona 10</string>
 
     // A chispudo
     <string name="a_chispudo_question">¿Qué es un patojo?</string>
@@ -156,13 +325,52 @@
     <string name="b_two_chispudo_response">Mirciny Moliviatis</string>
     <string name="b_three_chispudo_response">Chef ramnsi</string>
 
+    // 3. chisdo C question
+    <string name="c_chispudo_question">¿Cuál es la aplicación perfecta para viajes dentro del país?</string>
+    // respuestas
+    <string name="c_one_chispudo_response">Duolingo</string>
+    <string name="c_two_chispudo_response">ElCaldo</string>
+    <string name="c_three_chispudo_response">Maya pitz</string>
+    <string name="c_four_chispudo_response">Tiahue</string>
 
-    // pilas E chispudo
+    // 4. chispudo D question
+    <string name="d_chispudo_question">¿Cuánto ahorro Guatemal en pago de deuda pública para el 2017?</string>
+    // respuestas
+    <string name="d_one_chispudo_response">150 millones de quetzales</string>
+    <string name="d_two_chispudo_response">2 millones de quetzales</string>
+    <string name="d_three_chispudo_response">650 millones de quetzales</string>
+    <string name="d_four_chispudo_response">322 millones de quetzales</string>
+
+    // 5. chispudo E chispudo
     <string name="e_chispudo_question">¿A que le llamamos pisto?</string>
     // answers
     <string name="e_one_chispudo_response">Cash</string>
     <string name="e_two_chispudo_response">Suelo</string>
     <string name="e_three_chispudo_response">Dinero</string>
+
+    // 6. chispudo F question
+    <string name="f_chispudo_question">¿Cuánto ahorro Guatemala en gastos superflos para el 2017?</string>
+    // respuestas
+    <string name="f_one_chispudo_response">3 millones de quetzales</string>
+    <string name="f_two_chispudo_response">20 millones de quetzales</string>
+    <string name="f_three_chispudo_response">1 mil 700 millones de quetzales</string>
+    <string name="f_four_chispudo_response">3 mil 500 millones de quetzales</string>
+
+    // 7. chispudo G question
+    <string name="g_chispudo_question">¿En dónde se descubrió la primera red súper carreteras del mundo?</string>
+    // resuestas
+    <string name="g_one_chispudo_response">Africa</string>
+    <string name="g_two_chispudo_response">Río misisipi</string>
+    <string name="g_three_chispudo_response">Selva de Petén</string>
+    <string name="g_four_chispudo_response">Río de las vacas</string>
+
+    // 8. chispudo H question
+    <string name="h_chispudo_question">¿En qué posición se encuentra Gautemala del ranking respecto a mujeres como directivos?</string>
+    // respuesstas
+    <string name="h_one_chispudo_question">Puesto #1</string>
+    <string name="h_two_chispudo_question">Puesto #20</string>
+    <string name="h_three_chispudo_question">Puesto #93</string>
+    <string name="h_four_chispudo_question">Puesto #8</string>
 
     // pilas I chispudo
     <string name="i_chispudo_question">¿Qué es un chumino?</string>
@@ -170,6 +378,13 @@
     <string name="i_one_chispudo_response">Perro de la calle</string>
     <string name="i_two_chispudo_response">Shumo</string>
 
+    // 10. chispudo J question
+    <string name="j_chispudo_question">¿Cual es el HUB de tecnología más grande de Guatemala?</string>
+    // respuestas
+    <string name="j_one_chispudo_response">Intecap</string>
+    <string name="j_two_chispudo_response">Campus TEC</string>
+    <string name="j_three_chispudo_response">Universidad galielo</string>
+    <string name="j_four_chispudo_response">Universidad de San Carlos</string>
 
     // SEPARATOR I
 

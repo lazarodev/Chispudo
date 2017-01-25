@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/one_wiuro_question"
+        android:text="@string/six_wiuro_question"
         android:textSize="18sp"
         android:textStyle="bold" />
 
@@ -18,7 +20,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="@android:color/transparent"
-        android:text="@string/a_one_wiuro_response"
+        android:text="@string/f_one_chilero_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
@@ -27,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_two_wiuro_response"
+        android:text="@string/f_two_chilero_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
@@ -36,7 +38,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_three_wiuro_response"
+        android:text="@string/f_three_chilero_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
@@ -45,7 +47,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_four_wiuro_response"
+        android:text="@string/f_four_chilero_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 

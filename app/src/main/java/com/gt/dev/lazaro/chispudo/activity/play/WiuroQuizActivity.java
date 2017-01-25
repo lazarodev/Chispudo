@@ -7,8 +7,15 @@ import android.view.WindowManager;
 import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
 import com.gt.dev.lazaro.chispudo.fragments.wiuro.AWiuroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.wiuro.BWiuroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.wiuro.CWiuroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.wiuro.DWiuroQuestion;
 import com.gt.dev.lazaro.chispudo.fragments.wiuro.EWiuroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.wiuro.FWiuroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.wiuro.GWiuroQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.wiuro.HWiuroQuestion;
 import com.gt.dev.lazaro.chispudo.fragments.wiuro.IWiuroQuest;
+import com.gt.dev.lazaro.chispudo.fragments.wiuro.JWiuroQuestion;
 
 public class WiuroQuizActivity extends TabStepper {
 
@@ -27,8 +34,15 @@ public class WiuroQuizActivity extends TabStepper {
         setAlternativeTab(true);
 
         addStep(createFragment(new AWiuroQuestion()));
+        addStep(createFragment(new BWiuroQuestion()));
+        addStep(createFragment(new CWiuroQuestion()));
+        addStep(createFragment(new DWiuroQuestion()));
         addStep(createFragment(new EWiuroQuestion()));
+        addStep(createFragment(new FWiuroQuestion()));
+        addStep(createFragment(new GWiuroQuestion()));
+        addStep(createFragment(new HWiuroQuestion()));
         addStep(createFragment(new IWiuroQuest()));
+        addStep(createFragment(new JWiuroQuestion()));
 
         super.onCreate(savedInstanceState);
     }

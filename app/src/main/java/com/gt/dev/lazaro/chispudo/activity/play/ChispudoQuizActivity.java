@@ -7,8 +7,15 @@ import com.github.fcannizzaro.materialstepper.AbstractStep;
 import com.github.fcannizzaro.materialstepper.style.TabStepper;
 import com.gt.dev.lazaro.chispudo.R;
 import com.gt.dev.lazaro.chispudo.fragments.chispudo.AChispudoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chispudo.BChispudoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chispudo.CChispudoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chispudo.DChispudoQuestion;
 import com.gt.dev.lazaro.chispudo.fragments.chispudo.EChispudoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chispudo.FChispudoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chispudo.GChispudoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chispudo.HChispudoQuestion;
 import com.gt.dev.lazaro.chispudo.fragments.chispudo.IChispudoQuestion;
+import com.gt.dev.lazaro.chispudo.fragments.chispudo.JChispudoQuestion;
 
 public class ChispudoQuizActivity extends TabStepper {
 
@@ -27,8 +34,15 @@ public class ChispudoQuizActivity extends TabStepper {
         setAlternativeTab(true);
 
         addStep(createFragment(new AChispudoQuestion()));
+        addStep(createFragment(new BChispudoQuestion()));
+        addStep(createFragment(new CChispudoQuestion()));
+        addStep(createFragment(new DChispudoQuestion()));
         addStep(createFragment(new EChispudoQuestion()));
+        addStep(createFragment(new FChispudoQuestion()));
+        addStep(createFragment(new GChispudoQuestion()));
+        addStep(createFragment(new HChispudoQuestion()));
         addStep(createFragment(new IChispudoQuestion()));
+        addStep(createFragment(new JChispudoQuestion()));
 
         super.onCreate(savedInstanceState);
     }
