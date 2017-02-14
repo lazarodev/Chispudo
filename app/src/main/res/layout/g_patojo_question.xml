@@ -1,52 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/one_wiuro_question"
+        android:text="@string/g_patojo_question"
         android:textSize="18sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn_lento_wiuro"
+        android:id="@+id/btn_g_one_patojo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="@android:color/transparent"
-        android:text="@string/a_one_wiuro_response"
+        android:text="@string/g_one_patojo_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_inteligente_wiuro"
+        android:id="@+id/btn_g_two_patojo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_two_wiuro_response"
+        android:text="@string/g_two_patojo_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_audaz_wiuro"
+        android:id="@+id/btn_g_three_patojo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_three_wiuro_response"
+        android:text="@string/g_three_patojo_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_astuto_wiuro"
+        android:id="@+id/btn_g_four_patojo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_four_wiuro_response"
+        android:text="@string/g_four_patojo_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 

@@ -32,14 +32,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnGlosario = (ImageButton) findViewById(R.id.btn_glosario);
         btnQuizDaily = (ImageButton) findViewById(R.id.btn_quiz_daily);
         btnAbout = (ImageButton) findViewById(R.id.btn_about);
-        btnSetting = (ImageButton) findViewById(R.id.btn_settings);
 
         btnPlay.setOnClickListener(this);
         btnText.setOnClickListener(this);
         btnGlosario.setOnClickListener(this);
         btnQuizDaily.setOnClickListener(this);
         btnAbout.setOnClickListener(this);
-        btnSetting.setOnClickListener(this);
     }
 
     @Override

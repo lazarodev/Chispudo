@@ -27,6 +27,9 @@ public class QuizMainActivity extends AppCompatActivity implements View.OnClickL
     }
 
     private void startVars() {
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         btnWiuro = (ImageButton) findViewById(R.id.btn_wiuro_level);
         btnPatojo = (ImageButton) findViewById(R.id.btn_patojo_level);
         btnChilero = (ImageButton) findViewById(R.id.btn_chilero_level);

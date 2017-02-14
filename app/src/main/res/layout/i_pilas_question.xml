@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     android:orientation="vertical">
 
     <TextView
@@ -14,7 +15,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn_lento_wiuro"
+        android:id="@+id/btn_i_one_pilas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -24,7 +25,7 @@
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_inteligente_wiuro"
+        android:id="@+id/btn_i_two_pilas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
@@ -33,7 +34,7 @@
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_audaz_wiuro"
+        android:id="@+id/btn_i_three_pilas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
@@ -42,7 +43,7 @@
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_astuto_wiuro"
+        android:id="@+id/btn_i_four_pilas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"

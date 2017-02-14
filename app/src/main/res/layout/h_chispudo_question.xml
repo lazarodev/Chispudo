@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="16dp"
     android:orientation="vertical">
 
     <TextView
@@ -9,44 +10,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/one_wiuro_question"
+        android:text="@string/h_chispudo_question"
         android:textSize="18sp"
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn_lento_wiuro"
+        android:id="@+id/btn_h_one_chispudo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:background="@android:color/transparent"
-        android:text="@string/a_one_wiuro_response"
+        android:text="@string/h_one_chispudo_question"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_inteligente_wiuro"
+        android:id="@+id/btn_h_two_chispudo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_two_wiuro_response"
+        android:text="@string/h_two_chispudo_question"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_audaz_wiuro"
+        android:id="@+id/btn_h_three_chispudo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_three_wiuro_response"
+        android:text="@string/h_three_chispudo_question"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_astuto_wiuro"
+        android:id="@+id/btn_h_four_chispudo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/a_four_wiuro_response"
+        android:text="@string/h_four_chispudo_question"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 

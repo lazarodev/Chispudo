@@ -15,6 +15,9 @@
     <string name="b_wiuro_question">¿En que laguna hay tanta paz que los peces no conocen la agresión humana de ninguna manera?</string>
     // respuestas
     <string name="b_one_wiuro_response">Laguna lachuá</string>
+    <string name="b_two_wiuro_response">Laguna 2</string>
+    <string name="b_three_wiuro_response">Laguna 3</string>
+    <string name="b_four_wiuro_response">Laguna 4</string>
 
     // 3. wiuro c question
     <string name="c_wiuro_question">¿Qué artista ha veniddo más discos en la historia de Centroamérica?</string>
@@ -95,6 +98,9 @@
     <string name="b_patojo_question">¿Como se llama la cascada que se encuentra en Izabal?</string>
     //respuestas
     <string name="b_one_patojo_response">Cascada del paraíso</string>
+    <string name="b_two_patojo_response">Cascada del paraíso</string>
+    <string name="b_three_patojo_response">Cascada del paraíso</string>
+    <string name="b_four_patojo_response">Cascada del paraíso</string>
 
     // 3. patojo c question
     <string name="c_patojo_question">¿Quién a sus 12 y 13 años fue nombrada "All Around Artist" en el world championship of performing arts?</string>
@@ -138,7 +144,7 @@
     <string name="g_four_patojo_response">89</string>
 
     // 8. patojo h question
-    <string name="h_patojo_question">¿En que tipo de suelo sale el mejor café de Gautemala?</string>
+    <string name="h_patojo_question">¿En que tipo de suelo sale el mejor café de Guatemala?</string>
     // respuestas
     <string name="h_one_patojo_response">El de mi jardin xD</string>
     <string name="h_two_patojo_response">Suelo Humedo</string>
@@ -172,6 +178,9 @@
     <string name="b_chilero_question">¿En que volcán hay una pequeña cueva?</string>
     // answers
     <string name="b_one_chilero_response">Volcán de ipala</string>
+    <string name="b_two_chilero_response">Volcán de agua</string>
+    <string name="b_three_chilero_response">Volcán de fuego</string>
+    <string name="b_four_chilero_response">Volcán de pacaya</string>
 
     // 3. chilero c question
     <string name="c_chilero_question">¿Cuando fue el paro nacional de mayor impacto en la sociedad guatemalteca del siglo XXI?</string>
@@ -365,7 +374,7 @@
     <string name="g_four_chispudo_response">Río de las vacas</string>
 
     // 8. chispudo H question
-    <string name="h_chispudo_question">¿En qué posición se encuentra Gautemala del ranking respecto a mujeres como directivos?</string>
+    <string name="h_chispudo_question">¿En qué posición se encuentra Guatemala del ranking respecto a mujeres como directivos?</string>
     // respuesstas
     <string name="h_one_chispudo_question">Puesto #1</string>
     <string name="h_two_chispudo_question">Puesto #20</string>

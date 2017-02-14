@@ -15,7 +15,7 @@
         android:textStyle="bold" />
 
     <Button
-        android:id="@+id/btn_lento_wiuro"
+        android:id="@+id/btn_b_one_pilas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
@@ -25,29 +25,29 @@
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_inteligente_wiuro"
+        android:id="@+id/btn_b_two_pilas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/b_one_pilas_response"
+        android:text="@string/b_two_pilas_resposne"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_audaz_wiuro"
+        android:id="@+id/btn_b_three_pilas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/b_one_pilas_response"
+        android:text="@string/b_three_pilas_response"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
     <Button
-        android:id="@+id/btn_astuto_wiuro"
+        android:id="@+id/btn_b_four_pilas"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:text="@string/b_one_pilas_response"
+        android:text="@string/b_two_pilas_resposne"
         android:textColor="@android:color/holo_blue_dark"
         android:textSize="14sp" />
 
