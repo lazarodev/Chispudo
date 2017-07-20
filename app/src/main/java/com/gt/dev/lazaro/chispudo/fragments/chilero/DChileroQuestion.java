@@ -17,7 +17,7 @@ import com.gt.dev.lazaro.chispudo.R;
 public class DChileroQuestion extends AbstractStep implements View.OnClickListener {
 
     private Button btn1, btn2, btn3, btn4;
-    public int dChilero;
+    public static int dChilero;
     int click;
 
     @Nullable
@@ -41,6 +41,16 @@ public class DChileroQuestion extends AbstractStep implements View.OnClickListen
     @Override
     public String name() {
         return null;
+    }
+
+    @Override
+    public boolean nextIf() {
+        return click > 0;
+    }
+
+    @Override
+    public String error() {
+        return getString(R.string.error_message_push_button);
     }
 
     @Override

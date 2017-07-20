@@ -44,6 +44,16 @@ public class EWiuroQuestion extends AbstractStep implements View.OnClickListener
     }
 
     @Override
+    public boolean nextIf() {
+        return click > 0;
+    }
+
+    @Override
+    public String error() {
+        return getString(R.string.error_message_push_button);
+    }
+
+    @Override
     public void onDetach() {
         super.onDetach();
     }

@@ -51,4 +51,11 @@ public class ChileroQuizActivity extends TabStepper {
         fragment.setArguments(b);
         return fragment;
     }
+
+    private void saveResult() {
+        JChileroQuestion finalFragment = new JChileroQuestion();
+        finalFragment.finalValue();
+        String finalString = finalFragment.getVarFinal();
+    }
+
 }

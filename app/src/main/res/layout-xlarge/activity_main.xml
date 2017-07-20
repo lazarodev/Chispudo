@@ -44,7 +44,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:gravity="center"
-                android:text="¡Que Onda!"
+                android:text="@string/que_onda"
                 android:textColor="@android:color/black"
                 android:textSize="38sp"
                 android:textStyle="bold" />
@@ -55,7 +55,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:gravity="center"
-                android:text="Textos"
+                android:text="@string/strings"
                 android:textColor="@android:color/black"
                 android:textSize="38sp"
                 android:textStyle="bold" />
@@ -94,7 +94,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:gravity="center"
-                android:text="Quiz del día"
+                android:text="@string/quiz_daily"
                 android:textColor="@android:color/black"
                 android:textSize="38sp"
                 android:textStyle="bold" />
@@ -105,7 +105,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:gravity="center"
-                android:text="MiniJuego"
+                android:text="@string/chamusca_game"
                 android:textColor="@android:color/black"
                 android:textSize="38sp"
                 android:textStyle="bold" />
@@ -144,7 +144,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:gravity="center"
-                android:text="Glosario"
+                android:text="@string/glosario"
                 android:textColor="@android:color/black"
                 android:textSize="38sp"
                 android:textStyle="bold" />
@@ -155,7 +155,7 @@
                 android:layout_height="wrap_content"
                 android:background="@android:color/transparent"
                 android:gravity="center"
-                android:text="Acerca de"
+                android:text="@string/about_us"
                 android:textColor="@android:color/black"
                 android:textSize="38sp"
                 android:textStyle="bold" />

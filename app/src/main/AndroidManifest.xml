@@ -39,7 +39,8 @@
             android:name=".activity.DetailTextoActivity"
             android:label="@string/title_activity_detail_texto"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".activity.GameMainActivity"></activity>
+        <activity android:name=".activity.GameMainActivity" />
+        <activity android:name=".activity.play.ResultActivity"></activity>
     </application>
 
 </manifest>

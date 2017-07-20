@@ -25,6 +25,8 @@ public class AWiuroQuestion extends AbstractStep implements View.OnClickListener
         return null;
     }
 
+
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -45,12 +47,17 @@ public class AWiuroQuestion extends AbstractStep implements View.OnClickListener
 
     @Override
     public boolean nextIf() {
-        return super.nextIf();
+        return click > 0;
     }
 
     @Override
     public String error() {
-        return super.error();
+        return getString(R.string.error_message_push_button);
+    }
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
     }
 
     @Override

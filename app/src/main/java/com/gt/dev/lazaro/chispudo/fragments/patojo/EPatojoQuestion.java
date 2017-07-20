@@ -45,6 +45,16 @@ public class EPatojoQuestion extends AbstractStep implements View.OnClickListene
     }
 
     @Override
+    public boolean nextIf() {
+        return click > 0;
+    }
+
+    @Override
+    public String error() {
+        return getString(R.string.error_message_push_button);
+    }
+
+    @Override
     public void onDetach() {
         super.onDetach();
     }
